@@ -1,0 +1,14 @@
+matplotlib
+flask
+ipyleaflet
+ipywidgets
+numpy
+opencv-python
+psycopg2-binary
+pymysql
+python-dotenv
+scikit-learn
+seaborn
+sqlalchemy
+sympy
+gunicorn

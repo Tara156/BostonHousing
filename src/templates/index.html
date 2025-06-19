@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston Housing</title>
+</head>
+<body>
+
+    <h2>Introduzca los valores</h2>
+
+<!-- post envio información  -->
+
+
+    <form action="/" method="post">   
+    Crim: <input type="number",step="any",name="val1" required><br><br>
+    rm:  <input type="number",step="any",name="val2" required><br><br>
+    age: <input type="number",step="any",name="val3" required><br><br>
+    lstat: <input type="number",step="any",name="val4" required><br><br>
+    edad: <input type="number",step="any",name="val5" required><br><br>
+        <input type="submit" value="Predict">
+
+    </form>
+
+        {% if prediction !=None %}
+            
+            <h3>Prediction: {{ prediction }} </h3>
+        
+        {%  endif %}
+
+    
+</body>
+</html>
